@@ -102,3 +102,5 @@ if "10" in q1:
 	print ("gmail me to get more tool imformation")
 	print ("semalalikithsai@gmail.com and can you rate us in gmail and send to me")
 	print ("and please subscribe to hackers are here where are you in youtube")
+else:
+	print ("error :-  please choose numbers to select")
