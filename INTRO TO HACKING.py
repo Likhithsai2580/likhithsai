@@ -1,3 +1,5 @@
+import pyjokes
+import webbrowser
 print ("i am your bot my name likhith sai")
 name = input("what is your name:-")
 print ("nice name" , name )
@@ -10,7 +12,8 @@ print ("6 = what is github")
 print ("7 = is python is important for hacking ")
 print ("8 = what is aicrack-ng")
 print ("9 = how to hack cctv")
-print ("10 = others")
+print ("O = others")
+print ("J = jokes")
 q1 = input("please ask hacking doubt using above options :-  ")
 if "1" in q1:
 	print ("ssh is secure shell protocal")
@@ -89,6 +92,7 @@ if "6" in q1:
 if "7" in  q1:
 	print ("PYTHON IS VERY IMPORTANT LANGUAGE AS IT HELP US TO MAKE HACKING AND WE ALSO CAN PUT THE CODE IN GITHUB ")
 	print ("do you know your seeing these as i wrote in python ")
+	print ("do you want to see how i am writing code open this file")
 if "8" in q1:
 	print ("it is a tool to hack a wifi")
 	print ("aircrack-ng -i <interface of wireless adopter>")
@@ -98,9 +102,15 @@ if "9" in q1:
 	print ("use <sorry i don't what is in list but do the axurily/scanner>")
 	print ("show options ")
 	print ("run")
-if "10" in q1:
-	print ("gmail me to get more tool imformation")
+if "O" in q1:
+	print ("gmail me to get more tools imformation")
 	print ("semalalikithsai@gmail.com and can you rate us in gmail and send to me")
+	chromedir= 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
+	webbrowser.get(chromedir).open("https://mail.google.com/mail/u/0/?pli=1#inbox?compose=new")
 	print ("and please subscribe to hackers are here where are you in youtube")
-else:
-	print ("error :-  please choose numbers to select")
+	chromedir= 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
+	webbrowser.get(chromedir).open("https://www.youtube.com/channel/UC5N_8t5SzEyJrTx1bC66Kpw")
+if "J" in q1:
+	print (pyjokes.get_joke())
+elif:
+	print ("data not found in this project try to give 1 to 10 numbers")
